@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 600px) {
+  .plan,
+  .profile,
+  .pricing {
+    width: 90%;
+  }
+  .plan {
+    margin-bottom: 10px;
+  }
+  .pricing {
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .plan,
+  .profile,
+  .pricing {
+    width: 90%;
+  }
+  .plan {
+    margin-bottom: 10px;
+  }
+  .pricing {
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .plan {
+    width: 80%;
+  }
+
+  .profile,
+  .pricing {
+    width: 29%;
+  }
+
+  .pricing {
+    margin-top: 37px;
+  }
+
+  @media only screen and (min-width: 992px) {
+    .plan {
+      width: 80%;
+    }
+
+    .profile,
+    .pricing {
+      width: 29%;
+    }
+
+    .pricing {
+      margin-top: 25px;
+    }
+  }
+}
